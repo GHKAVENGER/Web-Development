@@ -1,0 +1,61 @@
+h2{text-align: center;}
+#main{
+    margin: auto;
+    border: 2px solid black;
+    width: 80%;
+    height:10cm;
+    color: aliceblue;
+    text-align: center;
+    display: flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+}
+#one{
+    background-color: violet;
+}
+#two{
+    background-color: indigo;
+}
+#three{
+    background-color: blue;
+}
+#four{
+    background-color: green;
+}
+#five{
+    background-color: yellow;
+}
+#six{
+    background-color: orange;
+}
+#seven{
+    background-color:red;
+}
+#main div{
+    height:2cm;
+    width: 5cm;
+}
+#box{
+    border: 5px solid rgb(45, 212, 241);
+    height: 1230px;
+    width: 1230px;
+    border-radius: 10px;
+    display:flex;
+   flex-wrap: wrap;
+   flex-direction: row;    
+   justify-content: space-around;
+   /* justify-content: flex-start; */
+   align-content: space-around;
+}
+#box div{
+    border:5px solid black ;
+    background-color: rgb(110, 108, 108);
+    border-radius: 10px;
+    font-size: 150px;
+    text-align: center;
+    font-weight: 100px;
+    height: 300px;
+    width: 300px;
+   
+}

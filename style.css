@@ -1,0 +1,42 @@
+/* h1{
+    color:rgb(29, 107, 252);
+}
+h2{
+    color: orange;
+}
+p{
+    color: white;
+    background-color: black;
+}
+button{
+    color: white;
+    background-color:blue;
+} */
+
+/* ///////////////////////////////////// */
+/* ASSIGNMENT QUESTION 1 */
+/* /////////////////////////////////// */
+
+p{
+    background-color: #A52A2A;
+    color: red;
+    line-height: 30px;
+}
+h3{
+    color: black;
+}
+p,h1,h3{
+    text-align: center;
+
+}
+a{
+    text-decoration: none;
+    color: rgb(0,255,0);
+}
+button{
+    background-color: white;
+    color:blueviolet;
+}
+textarea{
+    color:#000000;
+}

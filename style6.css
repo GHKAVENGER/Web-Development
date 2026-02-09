@@ -1,0 +1,44 @@
+#container{
+    height: 500px;
+    width: 600px;
+    background-color:black;
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(3,1fr); 
+    row-gap: 10px;
+    justify-items: center;
+    align-items: center;
+    
+    
+    
+}
+.item{
+    height: 50px;
+    width:100px;
+    background-color: greenyellow;
+    border: 2px solid black;
+    text-align: center;
+} 
+#anime{
+    background-color: pink;
+    border:2px solid black;
+    height: 200px;
+    animation: fontanime 2s ease-in 2s 3 normal;
+  
+}
+
+@keyframes fontanime{
+    from {
+        font-size: 20px ;
+        background-color: aqua;
+    }
+    to {
+        font-size: 50px ;
+        background-color: green;
+    }
+}
+@media(min-width:500px ){
+    #anime{
+        background-color: brown;
+    }
+}

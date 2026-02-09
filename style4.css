@@ -1,0 +1,130 @@
+/* div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border-color: black;
+    border-style: solid;
+    margin: 0 auto;
+    transition: margin-top 2s ease-in 0.2s,
+     border-radius 2s ease-in 0.2s,
+     background-color 0.2s ease-in ;
+}
+div:hover{
+    background-color: blueviolet;
+    border-radius: 100% ;
+    margin-top: 400px;
+} */
+
+
+
+/* div{
+    length:200px;
+    width: 50px;
+    text-align: center;
+    margin: 5px;
+    background-color: rgb(218, 146, 40);
+    border: 2px solid  black;
+}
+div :nth-last-of-type(2n){
+    background-color: rgb(226, 121, 170);
+}
+div :nth-last-of-type(3n){
+    background-color: rgb(129, 174, 224);
+}
+#one{
+    transform: rotate(180deg);
+}
+#two{
+    transform:scale(0.5) ;
+}
+#three {
+    transform: translateX(50px);
+}
+#four{
+    transform: skew(30deg);
+}
+#five{
+    transform: rotate(30deg) scale(1.5) translate(40px) skew(45deg);
+    box-shadow: 2px 2px 2px black;
+} */
+
+
+
+/* div{
+    height:100px;
+    width: 100px;
+    border: 2px solid black;
+    margin: 5px;
+    display: inline-block;
+    background-color: green;
+}
+#static{
+    background-color: yellow;
+    position: static;
+    top: 100px;
+    left: 100px;
+}
+#relative{
+    background-color: yellow;
+    position: relative;
+    left: 100px;
+    top:105px;
+}
+#absolute{
+    background-color: yellow;
+    position: absolute;
+    left:100px;
+    top:100px;
+}
+#fixed{
+    background-color: yellow;
+    position: fixed;
+    left:100px;
+    top:100px;
+} */
+
+
+
+
+
+#face{
+    height: 500px;
+    width: 500px;
+    border: 2px solid black;
+    background-color: #f19c1b;
+    border-radius: 50%; 
+    position: absolute;
+    top: 100px;
+}
+#eyes1{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top:160px;
+    left:150px;    
+}
+#eyes2{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top:160px;
+    left: 300px;    
+}
+#mouth{
+    width: 210px;
+    height: 80px;
+    border: 2px solid black;
+    background-color: red;
+    border-radius: 0 0 200px 200px  ;
+    position: absolute;
+    top: 330px;
+    left:160px;
+}

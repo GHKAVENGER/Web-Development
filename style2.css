@@ -1,0 +1,10 @@
+h1{color: blue;}
+.button{background-color:aqua;}
+.button2{background-color: black;color: white;}
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+div[id="q"]>p{
+    color: blue;
+}
